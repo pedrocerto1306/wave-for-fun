@@ -6,6 +6,6 @@ function fazerReserva(){
     var valor = horas * 300.0
 
     if(confirm(`Reserva de ${horas}h para ${data} sai por R$${valor},00. Deseja confirmar a reserva?`)){
-        ticket.value = "Reserva confirmada!"
+        ticket.innerHTML = "Reserva confirmada para " + data + "!"
     }
 }
