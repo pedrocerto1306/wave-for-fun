@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Wave4fun</title>
+</head>
+
+<body>
+    <div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Contatos</a></li>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h1 class="titulo">Wave4fun</h1>
+        <h5 class="titulo">aulas de wakeboard, wakesurf e wakeskate</h5>
+        <br><hr>
+    </div>
+    <div class="corpo">
+        <h5 class="texto">Preencha os dados para fazer uma reserva</h5>
+        <input class="btn-wave" type="date" name="data" id="data">
+        <input class="btn-wave" type="number" placeholder="Quantidade de horas" name="horas" id="horas">
+        <button class="btn-wave mt-10" onclick="fazerReserva()">fazer reserva</button>
+    </div>
+    <br><hr>
+    <div class="corpo">
+        <span id="ticket" class="texto"></span>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
